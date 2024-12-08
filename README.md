@@ -1,0 +1,3 @@
+# Uncommon HTML Error: Calling Non-Existent Method
+
+This repository demonstrates an uncommon error in HTML that can occur when calling a method on an element that either doesn't exist or doesn't support the method being called.  This can lead to unexpected runtime errors in the browser's JavaScript console. The solution involves thorough testing and ensuring that the method exists on the given element.
