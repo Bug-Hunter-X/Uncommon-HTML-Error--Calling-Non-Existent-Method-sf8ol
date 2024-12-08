@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Uncommon HTML Error Solution</title>
+</head>
+<body>
+  <div id="myDiv"></div>
+  <script>
+    const myDiv = document.getElementById('myDiv');
+    if (myDiv) {
+      //Check if the element exists before calling any methods
+      if (myDiv.hasOwnProperty('textContent')) {
+        myDiv.textContent = 'This is working!';
+      } else {
+        console.error('Element does not support textContent.');
+      }
+    } else {
+      console.error('Element with id "myDiv" not found.');
+    }
+  </script>
+</body>
+</html>
