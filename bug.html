@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Uncommon HTML Error</title>
+</head>
+<body>
+  <div id="myDiv"></div>
+  <script>
+    // This will throw an error if the element doesn't exist or if we're trying to use a method that's not supported by the element
+    document.getElementById('myDiv').nonExistentMethod(); 
+  </script>
+</body>
+</html>
